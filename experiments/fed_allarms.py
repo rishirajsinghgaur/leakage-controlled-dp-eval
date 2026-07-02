@@ -4,7 +4,7 @@ matched random arm, not argued away). Runs the selection comparison IN THE FEDER
 setting with all four arms at matched per-client budget:
   full / random / tdedup / fps  (selection_mode in fl/client.py)
 Contiguous + contiguous-heterogeneous partitions, end-to-end DP. Reuses the same
-validated FedAvg+DP machinery as honest_sweep.py.
+validated FedAvg+DP machinery as federated_sweep.py.
 
 KEY QUESTION: in FL, does random tie dedup (null holds in the titular setting), or not?
 Real outputs -> results/fed_allarms.json. NEVER fabricate.
@@ -19,7 +19,7 @@ from models.siamese import SiameseEncoder, train_siamese
 from fl.client import build_client_fn
 from fl.server import run_simulation
 from experiments.run_full_paper_sweep import DS_CFG, K
-from experiments.honest_sweep import contiguous_partitions
+from experiments.federated_sweep import contiguous_partitions
 from experiments.cached_load import cached_load
 from sklearn.model_selection import train_test_split
 

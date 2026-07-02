@@ -14,7 +14,7 @@ from models.siamese import SiameseEncoder, train_siamese
 from fl.client import build_client_fn
 from fl.server import run_simulation
 from experiments.run_full_paper_sweep import DS_CFG
-from experiments.honest_sweep import contiguous_partitions
+from experiments.federated_sweep import contiguous_partitions
 from experiments.cached_load import cached_load
 from sklearn.model_selection import train_test_split
 
