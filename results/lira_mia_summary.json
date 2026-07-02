@@ -1,0 +1,58 @@
+[
+  {
+    "dataset": "skab",
+    "epsilon": 0.5,
+    "weak_mean": 0.5039,
+    "weak_std": 0.0104,
+    "lira_mean": 0.5074,
+    "lira_std": 0.0072,
+    "lira_ci95": [
+      0.497,
+      0.533
+    ],
+    "seeds": 5,
+    "n_ref": 8
+  },
+  {
+    "dataset": "skab",
+    "epsilon": 2.0,
+    "weak_mean": 0.504,
+    "weak_std": 0.0104,
+    "lira_mean": 0.5076,
+    "lira_std": 0.0073,
+    "lira_ci95": [
+      0.497,
+      0.533
+    ],
+    "seeds": 5,
+    "n_ref": 8
+  },
+  {
+    "dataset": "swat",
+    "epsilon": 0.5,
+    "weak_mean": 0.5024,
+    "weak_std": 0.0081,
+    "lira_mean": 0.5035,
+    "lira_std": 0.0051,
+    "lira_ci95": [
+      0.496,
+      0.531
+    ],
+    "seeds": 5,
+    "n_ref": 8
+  },
+  {
+    "dataset": "swat",
+    "epsilon": 2.0,
+    "weak_mean": 0.5038,
+    "weak_std": 0.0113,
+    "lira_mean": 0.5033,
+    "lira_std": 0.0035,
+    "lira_ci95": [
+      0.494,
+      0.528
+    ],
+    "seeds": 5,
+    "n_ref": 8
+  }
+]

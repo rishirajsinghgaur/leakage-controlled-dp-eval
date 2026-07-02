@@ -1,0 +1,50 @@
+[
+  {
+    "dataset": "skab",
+    "n_client": 6400,
+    "U_k": 189,
+    "s0_sil_s": 0.0003,
+    "s1_dedup_s": 1.746,
+    "s1_peak_mem_MB": 32.4,
+    "s2_dpsgd_round_s": 0.046,
+    "n_params": 5580,
+    "comm_bytes_per_round": 44640,
+    "s1_scaling_time_by_n": {
+      "1600": 0.103,
+      "3200": 0.23,
+      "6400": 0.422
+    }
+  },
+  {
+    "dataset": "swat",
+    "n_client": 2400,
+    "U_k": 522,
+    "s0_sil_s": 0.0003,
+    "s1_dedup_s": 0.6,
+    "s1_peak_mem_MB": 9.5,
+    "s2_dpsgd_round_s": 0.154,
+    "n_params": 16508,
+    "comm_bytes_per_round": 132064,
+    "s1_scaling_time_by_n": {
+      "600": 0.025,
+      "1200": 0.063,
+      "2400": 0.138
+    }
+  },
+  {
+    "dataset": "tep",
+    "n_client": 6400,
+    "U_k": 6175,
+    "s0_sil_s": 0.0025,
+    "s1_dedup_s": 0.878,
+    "s1_peak_mem_MB": 5.8,
+    "s2_dpsgd_round_s": 1.642,
+    "n_params": 23676,
+    "comm_bytes_per_round": 189408,
+    "s1_scaling_time_by_n": {
+      "1600": 0.063,
+      "3200": 0.132,
+      "6400": 0.276
+    }
+  }
+]

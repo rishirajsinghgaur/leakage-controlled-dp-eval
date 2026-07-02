@@ -1,0 +1,1442 @@
+[
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "full",
+    "epsilon_target": 0.5,
+    "seed": 0,
+    "f1": 0.19993466187520417,
+    "rho": 0.7458564008188867
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "random",
+    "epsilon_target": 0.5,
+    "seed": 0,
+    "f1": 0.19405423064358052,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "tdedup",
+    "epsilon_target": 0.5,
+    "seed": 0,
+    "f1": 0.19666775563541328,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "fps",
+    "epsilon_target": 0.5,
+    "seed": 0,
+    "f1": 0.19797451813132963,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "full",
+    "epsilon_target": 2.0,
+    "seed": 0,
+    "f1": 0.17445279320483503,
+    "rho": 0.7458564008188867
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "random",
+    "epsilon_target": 2.0,
+    "seed": 0,
+    "f1": 0.19862789937928782,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "tdedup",
+    "epsilon_target": 2.0,
+    "seed": 0,
+    "f1": 0.19013394315583143,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "fps",
+    "epsilon_target": 2.0,
+    "seed": 0,
+    "f1": 0.20516171185886964,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "full",
+    "epsilon_target": 0.5,
+    "seed": 1,
+    "f1": 0.19274746814766416,
+    "rho": 0.7458564008188867
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "random",
+    "epsilon_target": 0.5,
+    "seed": 1,
+    "f1": 0.19078732440378962,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "tdedup",
+    "epsilon_target": 0.5,
+    "seed": 1,
+    "f1": 0.2025481868670369,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "fps",
+    "epsilon_target": 0.5,
+    "seed": 1,
+    "f1": 0.19209408689970597,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "full",
+    "epsilon_target": 2.0,
+    "seed": 1,
+    "f1": 0.18098660568441685,
+    "rho": 0.7458564008188867
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "random",
+    "epsilon_target": 2.0,
+    "seed": 1,
+    "f1": 0.20385494936295329,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "tdedup",
+    "epsilon_target": 2.0,
+    "seed": 1,
+    "f1": 0.18882718065991505,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "fps",
+    "epsilon_target": 2.0,
+    "seed": 1,
+    "f1": 0.19340084939562235,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "full",
+    "epsilon_target": 0.5,
+    "seed": 2,
+    "f1": 0.1875204181639987,
+    "rho": 0.7458564008188867
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "random",
+    "epsilon_target": 0.5,
+    "seed": 2,
+    "f1": 0.20581509310682783,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "tdedup",
+    "epsilon_target": 0.5,
+    "seed": 2,
+    "f1": 0.19144070565174778,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "fps",
+    "epsilon_target": 0.5,
+    "seed": 2,
+    "f1": 0.20124142437112055,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "full",
+    "epsilon_target": 2.0,
+    "seed": 2,
+    "f1": 0.18621365566808232,
+    "rho": 0.7458564008188867
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "random",
+    "epsilon_target": 2.0,
+    "seed": 2,
+    "f1": 0.18556027442012415,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "tdedup",
+    "epsilon_target": 2.0,
+    "seed": 2,
+    "f1": 0.19209408689970597,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "fps",
+    "epsilon_target": 2.0,
+    "seed": 2,
+    "f1": 0.2032015681149951,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "full",
+    "epsilon_target": 0.5,
+    "seed": 3,
+    "f1": 0.1829467494282914,
+    "rho": 0.7458564008188867
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "random",
+    "epsilon_target": 0.5,
+    "seed": 3,
+    "f1": 0.19013394315583143,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "tdedup",
+    "epsilon_target": 0.5,
+    "seed": 3,
+    "f1": 0.19144070565174778,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "fps",
+    "epsilon_target": 0.5,
+    "seed": 3,
+    "f1": 0.19340084939562235,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "full",
+    "epsilon_target": 2.0,
+    "seed": 3,
+    "f1": 0.1829467494282914,
+    "rho": 0.7458564008188867
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "random",
+    "epsilon_target": 2.0,
+    "seed": 3,
+    "f1": 0.19209408689970597,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "tdedup",
+    "epsilon_target": 2.0,
+    "seed": 3,
+    "f1": 0.1953609931394969,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "fps",
+    "epsilon_target": 2.0,
+    "seed": 3,
+    "f1": 0.18163998693237504,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "full",
+    "epsilon_target": 0.5,
+    "seed": 4,
+    "f1": 0.18556027442012415,
+    "rho": 0.7458564008188867
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "random",
+    "epsilon_target": 0.5,
+    "seed": 4,
+    "f1": 0.20385494936295329,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "tdedup",
+    "epsilon_target": 0.5,
+    "seed": 4,
+    "f1": 0.20124142437112055,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "fps",
+    "epsilon_target": 0.5,
+    "seed": 4,
+    "f1": 0.20581509310682783,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "full",
+    "epsilon_target": 2.0,
+    "seed": 4,
+    "f1": 0.18098660568441685,
+    "rho": 0.7458564008188867
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "random",
+    "epsilon_target": 2.0,
+    "seed": 4,
+    "f1": 0.1875204181639987,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "tdedup",
+    "epsilon_target": 2.0,
+    "seed": 4,
+    "f1": 0.18229336818033323,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 10,
+    "mode": "fps",
+    "epsilon_target": 2.0,
+    "seed": 4,
+    "f1": 0.1881737994119569,
+    "rho": 0.3784579206328788
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "full",
+    "epsilon_target": 0.5,
+    "seed": 0,
+    "f1": 0.19340084939562235,
+    "rho": 0.7468024762609984
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "random",
+    "epsilon_target": 0.5,
+    "seed": 0,
+    "f1": 0.1947076118915387,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "tdedup",
+    "epsilon_target": 0.5,
+    "seed": 0,
+    "f1": 0.19405423064358052,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "fps",
+    "epsilon_target": 0.5,
+    "seed": 0,
+    "f1": 0.1947076118915387,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "full",
+    "epsilon_target": 2.0,
+    "seed": 0,
+    "f1": 0.19013394315583143,
+    "rho": 0.7468024762609984
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "random",
+    "epsilon_target": 2.0,
+    "seed": 0,
+    "f1": 0.1947076118915387,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "tdedup",
+    "epsilon_target": 2.0,
+    "seed": 0,
+    "f1": 0.1953609931394969,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "fps",
+    "epsilon_target": 2.0,
+    "seed": 0,
+    "f1": 0.19078732440378962,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "full",
+    "epsilon_target": 0.5,
+    "seed": 1,
+    "f1": 0.20450833061091148,
+    "rho": 0.7468024762609984
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "random",
+    "epsilon_target": 0.5,
+    "seed": 1,
+    "f1": 0.1947076118915387,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "tdedup",
+    "epsilon_target": 0.5,
+    "seed": 1,
+    "f1": 0.19144070565174778,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "fps",
+    "epsilon_target": 0.5,
+    "seed": 1,
+    "f1": 0.19144070565174778,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "full",
+    "epsilon_target": 2.0,
+    "seed": 1,
+    "f1": 0.1881737994119569,
+    "rho": 0.7468024762609984
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "random",
+    "epsilon_target": 2.0,
+    "seed": 1,
+    "f1": 0.19209408689970597,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "tdedup",
+    "epsilon_target": 2.0,
+    "seed": 1,
+    "f1": 0.20581509310682783,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "fps",
+    "epsilon_target": 2.0,
+    "seed": 1,
+    "f1": 0.19274746814766416,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "full",
+    "epsilon_target": 0.5,
+    "seed": 2,
+    "f1": 0.20450833061091148,
+    "rho": 0.7468024762609984
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "random",
+    "epsilon_target": 0.5,
+    "seed": 2,
+    "f1": 0.19340084939562235,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "tdedup",
+    "epsilon_target": 0.5,
+    "seed": 2,
+    "f1": 0.19797451813132963,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "fps",
+    "epsilon_target": 0.5,
+    "seed": 2,
+    "f1": 0.19209408689970597,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "full",
+    "epsilon_target": 2.0,
+    "seed": 2,
+    "f1": 0.1868670369160405,
+    "rho": 0.7468024762609984
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "random",
+    "epsilon_target": 2.0,
+    "seed": 2,
+    "f1": 0.20124142437112055,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "tdedup",
+    "epsilon_target": 2.0,
+    "seed": 2,
+    "f1": 0.20516171185886964,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "fps",
+    "epsilon_target": 2.0,
+    "seed": 2,
+    "f1": 0.2071218556027442,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "full",
+    "epsilon_target": 0.5,
+    "seed": 3,
+    "f1": 0.19405423064358052,
+    "rho": 0.7468024762609984
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "random",
+    "epsilon_target": 0.5,
+    "seed": 3,
+    "f1": 0.18948056190787324,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "tdedup",
+    "epsilon_target": 0.5,
+    "seed": 3,
+    "f1": 0.19209408689970597,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "fps",
+    "epsilon_target": 0.5,
+    "seed": 3,
+    "f1": 0.19144070565174778,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "full",
+    "epsilon_target": 2.0,
+    "seed": 3,
+    "f1": 0.1960143743874551,
+    "rho": 0.7468024762609984
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "random",
+    "epsilon_target": 2.0,
+    "seed": 3,
+    "f1": 0.1947076118915387,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "tdedup",
+    "epsilon_target": 2.0,
+    "seed": 3,
+    "f1": 0.20385494936295329,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "fps",
+    "epsilon_target": 2.0,
+    "seed": 3,
+    "f1": 0.18882718065991505,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "full",
+    "epsilon_target": 0.5,
+    "seed": 4,
+    "f1": 0.19405423064358052,
+    "rho": 0.7468024762609984
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "random",
+    "epsilon_target": 0.5,
+    "seed": 4,
+    "f1": 0.19405423064358052,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "tdedup",
+    "epsilon_target": 0.5,
+    "seed": 4,
+    "f1": 0.19405423064358052,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "fps",
+    "epsilon_target": 0.5,
+    "seed": 4,
+    "f1": 0.19405423064358052,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "full",
+    "epsilon_target": 2.0,
+    "seed": 4,
+    "f1": 0.19144070565174778,
+    "rho": 0.7468024762609984
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "random",
+    "epsilon_target": 2.0,
+    "seed": 4,
+    "f1": 0.19078732440378962,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "tdedup",
+    "epsilon_target": 2.0,
+    "seed": 4,
+    "f1": 0.19340084939562235,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "skab",
+    "K": 20,
+    "mode": "fps",
+    "epsilon_target": 2.0,
+    "seed": 4,
+    "f1": 0.20646847435478602,
+    "rho": 0.3783051946659806
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "full",
+    "epsilon_target": 0.5,
+    "seed": 0,
+    "f1": 0.23918575063613232,
+    "rho": 0.9165750537934004
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "random",
+    "epsilon_target": 0.5,
+    "seed": 0,
+    "f1": 0.23155216284987276,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "tdedup",
+    "epsilon_target": 0.5,
+    "seed": 0,
+    "f1": 0.22137404580152673,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "fps",
+    "epsilon_target": 0.5,
+    "seed": 0,
+    "f1": 0.24681933842239187,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "full",
+    "epsilon_target": 2.0,
+    "seed": 0,
+    "f1": 0.272264631043257,
+    "rho": 0.9165750537934004
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "random",
+    "epsilon_target": 2.0,
+    "seed": 0,
+    "f1": 0.25190839694656486,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "tdedup",
+    "epsilon_target": 2.0,
+    "seed": 0,
+    "f1": 0.26463104325699743,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "fps",
+    "epsilon_target": 2.0,
+    "seed": 0,
+    "f1": 0.24936386768447838,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "full",
+    "epsilon_target": 0.5,
+    "seed": 1,
+    "f1": 0.26463104325699743,
+    "rho": 0.9165750537934004
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "random",
+    "epsilon_target": 0.5,
+    "seed": 1,
+    "f1": 0.23155216284987276,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "tdedup",
+    "epsilon_target": 0.5,
+    "seed": 1,
+    "f1": 0.22137404580152673,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "fps",
+    "epsilon_target": 0.5,
+    "seed": 1,
+    "f1": 0.18829516539440203,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "full",
+    "epsilon_target": 2.0,
+    "seed": 1,
+    "f1": 0.2875318066157761,
+    "rho": 0.9165750537934004
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "random",
+    "epsilon_target": 2.0,
+    "seed": 1,
+    "f1": 0.2748091603053435,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "tdedup",
+    "epsilon_target": 2.0,
+    "seed": 1,
+    "f1": 0.272264631043257,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "fps",
+    "epsilon_target": 2.0,
+    "seed": 1,
+    "f1": 0.2366412213740458,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "full",
+    "epsilon_target": 0.5,
+    "seed": 2,
+    "f1": 0.2366412213740458,
+    "rho": 0.9165750537934004
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "random",
+    "epsilon_target": 0.5,
+    "seed": 2,
+    "f1": 0.20865139949109415,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "tdedup",
+    "epsilon_target": 0.5,
+    "seed": 2,
+    "f1": 0.2366412213740458,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "fps",
+    "epsilon_target": 0.5,
+    "seed": 2,
+    "f1": 0.25190839694656486,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "full",
+    "epsilon_target": 2.0,
+    "seed": 2,
+    "f1": 0.2951653944020356,
+    "rho": 0.9165750537934004
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "random",
+    "epsilon_target": 2.0,
+    "seed": 2,
+    "f1": 0.27989821882951654,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "tdedup",
+    "epsilon_target": 2.0,
+    "seed": 2,
+    "f1": 0.26208651399491095,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "fps",
+    "epsilon_target": 2.0,
+    "seed": 2,
+    "f1": 0.2544529262086514,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "full",
+    "epsilon_target": 0.5,
+    "seed": 3,
+    "f1": 0.25190839694656486,
+    "rho": 0.9165750537934004
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "random",
+    "epsilon_target": 0.5,
+    "seed": 3,
+    "f1": 0.2697201017811705,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "tdedup",
+    "epsilon_target": 0.5,
+    "seed": 3,
+    "f1": 0.21882951653944022,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "fps",
+    "epsilon_target": 0.5,
+    "seed": 3,
+    "f1": 0.2366412213740458,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "full",
+    "epsilon_target": 2.0,
+    "seed": 3,
+    "f1": 0.3104325699745547,
+    "rho": 0.9165750537934004
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "random",
+    "epsilon_target": 2.0,
+    "seed": 3,
+    "f1": 0.2366412213740458,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "tdedup",
+    "epsilon_target": 2.0,
+    "seed": 3,
+    "f1": 0.2544529262086514,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "fps",
+    "epsilon_target": 2.0,
+    "seed": 3,
+    "f1": 0.18829516539440203,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "full",
+    "epsilon_target": 0.5,
+    "seed": 4,
+    "f1": 0.23918575063613232,
+    "rho": 0.9165750537934004
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "random",
+    "epsilon_target": 0.5,
+    "seed": 4,
+    "f1": 0.18829516539440203,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "tdedup",
+    "epsilon_target": 0.5,
+    "seed": 4,
+    "f1": 0.2340966921119593,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "fps",
+    "epsilon_target": 0.5,
+    "seed": 4,
+    "f1": 0.2824427480916031,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "full",
+    "epsilon_target": 2.0,
+    "seed": 4,
+    "f1": 0.30025445292620867,
+    "rho": 0.9165750537934004
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "random",
+    "epsilon_target": 2.0,
+    "seed": 4,
+    "f1": 0.23155216284987276,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "tdedup",
+    "epsilon_target": 2.0,
+    "seed": 4,
+    "f1": 0.272264631043257,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 10,
+    "mode": "fps",
+    "epsilon_target": 2.0,
+    "seed": 4,
+    "f1": 0.25190839694656486,
+    "rho": 0.5076915028372552
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "full",
+    "epsilon_target": 0.5,
+    "seed": 0,
+    "f1": 0.20865139949109415,
+    "rho": 0.9406872509262735
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "random",
+    "epsilon_target": 0.5,
+    "seed": 0,
+    "f1": 0.2035623409669211,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "tdedup",
+    "epsilon_target": 0.5,
+    "seed": 0,
+    "f1": 0.19083969465648856,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "fps",
+    "epsilon_target": 0.5,
+    "seed": 0,
+    "f1": 0.22391857506361323,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "full",
+    "epsilon_target": 2.0,
+    "seed": 0,
+    "f1": 0.25190839694656486,
+    "rho": 0.9406872509262735
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "random",
+    "epsilon_target": 2.0,
+    "seed": 0,
+    "f1": 0.2544529262086514,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "tdedup",
+    "epsilon_target": 2.0,
+    "seed": 0,
+    "f1": 0.23155216284987276,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "fps",
+    "epsilon_target": 2.0,
+    "seed": 0,
+    "f1": 0.21374045801526717,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "full",
+    "epsilon_target": 0.5,
+    "seed": 1,
+    "f1": 0.2366412213740458,
+    "rho": 0.9406872509262735
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "random",
+    "epsilon_target": 0.5,
+    "seed": 1,
+    "f1": 0.20865139949109415,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "tdedup",
+    "epsilon_target": 0.5,
+    "seed": 1,
+    "f1": 0.19083969465648856,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "fps",
+    "epsilon_target": 0.5,
+    "seed": 1,
+    "f1": 0.22646310432569974,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "full",
+    "epsilon_target": 2.0,
+    "seed": 1,
+    "f1": 0.22391857506361323,
+    "rho": 0.9406872509262735
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "random",
+    "epsilon_target": 2.0,
+    "seed": 1,
+    "f1": 0.22391857506361323,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "tdedup",
+    "epsilon_target": 2.0,
+    "seed": 1,
+    "f1": 0.22900763358778625,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "fps",
+    "epsilon_target": 2.0,
+    "seed": 1,
+    "f1": 0.23155216284987276,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "full",
+    "epsilon_target": 0.5,
+    "seed": 2,
+    "f1": 0.20865139949109415,
+    "rho": 0.9406872509262735
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "random",
+    "epsilon_target": 0.5,
+    "seed": 2,
+    "f1": 0.2595419847328244,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "tdedup",
+    "epsilon_target": 0.5,
+    "seed": 2,
+    "f1": 0.20865139949109415,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "fps",
+    "epsilon_target": 0.5,
+    "seed": 2,
+    "f1": 0.19338422391857507,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "full",
+    "epsilon_target": 2.0,
+    "seed": 2,
+    "f1": 0.23918575063613232,
+    "rho": 0.9406872509262735
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "random",
+    "epsilon_target": 2.0,
+    "seed": 2,
+    "f1": 0.21882951653944022,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "tdedup",
+    "epsilon_target": 2.0,
+    "seed": 2,
+    "f1": 0.19083969465648856,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "fps",
+    "epsilon_target": 2.0,
+    "seed": 2,
+    "f1": 0.22391857506361323,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "full",
+    "epsilon_target": 0.5,
+    "seed": 3,
+    "f1": 0.22646310432569974,
+    "rho": 0.9406872509262735
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "random",
+    "epsilon_target": 0.5,
+    "seed": 3,
+    "f1": 0.21882951653944022,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "tdedup",
+    "epsilon_target": 0.5,
+    "seed": 3,
+    "f1": 0.2366412213740458,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "fps",
+    "epsilon_target": 0.5,
+    "seed": 3,
+    "f1": 0.22391857506361323,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "full",
+    "epsilon_target": 2.0,
+    "seed": 3,
+    "f1": 0.22391857506361323,
+    "rho": 0.9406872509262735
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "random",
+    "epsilon_target": 2.0,
+    "seed": 3,
+    "f1": 0.2366412213740458,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "tdedup",
+    "epsilon_target": 2.0,
+    "seed": 3,
+    "f1": 0.23918575063613232,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "fps",
+    "epsilon_target": 2.0,
+    "seed": 3,
+    "f1": 0.22137404580152673,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "full",
+    "epsilon_target": 0.5,
+    "seed": 4,
+    "f1": 0.22391857506361323,
+    "rho": 0.9406872509262735
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "random",
+    "epsilon_target": 0.5,
+    "seed": 4,
+    "f1": 0.22391857506361323,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "tdedup",
+    "epsilon_target": 0.5,
+    "seed": 4,
+    "f1": 0.21119592875318066,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "fps",
+    "epsilon_target": 0.5,
+    "seed": 4,
+    "f1": 0.21374045801526717,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "full",
+    "epsilon_target": 2.0,
+    "seed": 4,
+    "f1": 0.2366412213740458,
+    "rho": 0.9406872509262735
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "random",
+    "epsilon_target": 2.0,
+    "seed": 4,
+    "f1": 0.19083969465648856,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "tdedup",
+    "epsilon_target": 2.0,
+    "seed": 4,
+    "f1": 0.22137404580152673,
+    "rho": 0.5184528190758929
+  },
+  {
+    "dataset": "swat",
+    "K": 20,
+    "mode": "fps",
+    "epsilon_target": 2.0,
+    "seed": 4,
+    "f1": 0.22137404580152673,
+    "rho": 0.5184528190758929
+  }
+]

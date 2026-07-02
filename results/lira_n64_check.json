@@ -1,0 +1,14 @@
+[
+  {
+    "split": "contiguous",
+    "n_ref": 64,
+    "lira_mean": 0.8027,
+    "lira_std": 0.0138
+  },
+  {
+    "split": "randomized",
+    "n_ref": 64,
+    "lira_mean": 0.5018,
+    "lira_std": 0.0029
+  }
+]

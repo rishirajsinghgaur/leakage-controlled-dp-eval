@@ -1,0 +1,162 @@
+[
+  {
+    "dataset": "skab",
+    "epsilon": 0.5,
+    "seed": 0,
+    "split": "contiguous_naive",
+    "weak_auc": 0.5586,
+    "lira_auc": 0.5433
+  },
+  {
+    "dataset": "skab",
+    "epsilon": 0.5,
+    "seed": 1,
+    "split": "contiguous_naive",
+    "weak_auc": 0.556,
+    "lira_auc": 0.5216
+  },
+  {
+    "dataset": "skab",
+    "epsilon": 0.5,
+    "seed": 2,
+    "split": "contiguous_naive",
+    "weak_auc": 0.5574,
+    "lira_auc": 0.5968
+  },
+  {
+    "dataset": "skab",
+    "epsilon": 0.5,
+    "seed": 3,
+    "split": "contiguous_naive",
+    "weak_auc": 0.5608,
+    "lira_auc": 0.5034
+  },
+  {
+    "dataset": "skab",
+    "epsilon": 0.5,
+    "seed": 4,
+    "split": "contiguous_naive",
+    "weak_auc": 0.5646,
+    "lira_auc": 0.5593
+  },
+  {
+    "dataset": "skab",
+    "epsilon": 2.0,
+    "seed": 0,
+    "split": "contiguous_naive",
+    "weak_auc": 0.5598,
+    "lira_auc": 0.5443
+  },
+  {
+    "dataset": "skab",
+    "epsilon": 2.0,
+    "seed": 1,
+    "split": "contiguous_naive",
+    "weak_auc": 0.56,
+    "lira_auc": 0.5255
+  },
+  {
+    "dataset": "skab",
+    "epsilon": 2.0,
+    "seed": 2,
+    "split": "contiguous_naive",
+    "weak_auc": 0.5609,
+    "lira_auc": 0.6012
+  },
+  {
+    "dataset": "skab",
+    "epsilon": 2.0,
+    "seed": 3,
+    "split": "contiguous_naive",
+    "weak_auc": 0.5605,
+    "lira_auc": 0.5042
+  },
+  {
+    "dataset": "skab",
+    "epsilon": 2.0,
+    "seed": 4,
+    "split": "contiguous_naive",
+    "weak_auc": 0.5629,
+    "lira_auc": 0.5587
+  },
+  {
+    "dataset": "swat",
+    "epsilon": 0.5,
+    "seed": 0,
+    "split": "contiguous_naive",
+    "weak_auc": 0.5333,
+    "lira_auc": 0.6208
+  },
+  {
+    "dataset": "swat",
+    "epsilon": 0.5,
+    "seed": 1,
+    "split": "contiguous_naive",
+    "weak_auc": 0.521,
+    "lira_auc": 0.6227
+  },
+  {
+    "dataset": "swat",
+    "epsilon": 0.5,
+    "seed": 2,
+    "split": "contiguous_naive",
+    "weak_auc": 0.3812,
+    "lira_auc": 0.6223
+  },
+  {
+    "dataset": "swat",
+    "epsilon": 0.5,
+    "seed": 3,
+    "split": "contiguous_naive",
+    "weak_auc": 0.5579,
+    "lira_auc": 0.6535
+  },
+  {
+    "dataset": "swat",
+    "epsilon": 0.5,
+    "seed": 4,
+    "split": "contiguous_naive",
+    "weak_auc": 0.4261,
+    "lira_auc": 0.5562
+  },
+  {
+    "dataset": "swat",
+    "epsilon": 2.0,
+    "seed": 0,
+    "split": "contiguous_naive",
+    "weak_auc": 0.7882,
+    "lira_auc": 0.747
+  },
+  {
+    "dataset": "swat",
+    "epsilon": 2.0,
+    "seed": 1,
+    "split": "contiguous_naive",
+    "weak_auc": 0.8053,
+    "lira_auc": 0.7416
+  },
+  {
+    "dataset": "swat",
+    "epsilon": 2.0,
+    "seed": 2,
+    "split": "contiguous_naive",
+    "weak_auc": 0.7047,
+    "lira_auc": 0.7396
+  },
+  {
+    "dataset": "swat",
+    "epsilon": 2.0,
+    "seed": 3,
+    "split": "contiguous_naive",
+    "weak_auc": 0.6633,
+    "lira_auc": 0.7198
+  },
+  {
+    "dataset": "swat",
+    "epsilon": 2.0,
+    "seed": 4,
+    "split": "contiguous_naive",
+    "weak_auc": 0.7125,
+    "lira_auc": 0.6941
+  }
+]

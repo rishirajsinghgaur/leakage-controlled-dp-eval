@@ -1,0 +1,722 @@
+[
+  {
+    "config": "naive (R1 off, R2 off)",
+    "gate_public": false,
+    "normal_only": false,
+    "epsilon": 0.5,
+    "seed": 0,
+    "condition": "C5_nodedup",
+    "f1": 0.20610687022900764
+  },
+  {
+    "config": "naive (R1 off, R2 off)",
+    "gate_public": false,
+    "normal_only": false,
+    "epsilon": 0.5,
+    "seed": 0,
+    "condition": "C6_dedup",
+    "f1": 0.2340966921119593
+  },
+  {
+    "config": "naive (R1 off, R2 off)",
+    "gate_public": false,
+    "normal_only": false,
+    "epsilon": 2.0,
+    "seed": 0,
+    "condition": "C5_nodedup",
+    "f1": 0.21882951653944022
+  },
+  {
+    "config": "naive (R1 off, R2 off)",
+    "gate_public": false,
+    "normal_only": false,
+    "epsilon": 2.0,
+    "seed": 0,
+    "condition": "C6_dedup",
+    "f1": 0.3053435114503817
+  },
+  {
+    "config": "naive (R1 off, R2 off)",
+    "gate_public": false,
+    "normal_only": false,
+    "epsilon": 0.5,
+    "seed": 1,
+    "condition": "C5_nodedup",
+    "f1": 0.22137404580152673
+  },
+  {
+    "config": "naive (R1 off, R2 off)",
+    "gate_public": false,
+    "normal_only": false,
+    "epsilon": 0.5,
+    "seed": 1,
+    "condition": "C6_dedup",
+    "f1": 0.27989821882951654
+  },
+  {
+    "config": "naive (R1 off, R2 off)",
+    "gate_public": false,
+    "normal_only": false,
+    "epsilon": 2.0,
+    "seed": 1,
+    "condition": "C5_nodedup",
+    "f1": 0.16793893129770993
+  },
+  {
+    "config": "naive (R1 off, R2 off)",
+    "gate_public": false,
+    "normal_only": false,
+    "epsilon": 2.0,
+    "seed": 1,
+    "condition": "C6_dedup",
+    "f1": 0.3104325699745547
+  },
+  {
+    "config": "naive (R1 off, R2 off)",
+    "gate_public": false,
+    "normal_only": false,
+    "epsilon": 0.5,
+    "seed": 2,
+    "condition": "C5_nodedup",
+    "f1": 0.21882951653944022
+  },
+  {
+    "config": "naive (R1 off, R2 off)",
+    "gate_public": false,
+    "normal_only": false,
+    "epsilon": 0.5,
+    "seed": 2,
+    "condition": "C6_dedup",
+    "f1": 0.25190839694656486
+  },
+  {
+    "config": "naive (R1 off, R2 off)",
+    "gate_public": false,
+    "normal_only": false,
+    "epsilon": 2.0,
+    "seed": 2,
+    "condition": "C5_nodedup",
+    "f1": 0.20865139949109415
+  },
+  {
+    "config": "naive (R1 off, R2 off)",
+    "gate_public": false,
+    "normal_only": false,
+    "epsilon": 2.0,
+    "seed": 2,
+    "condition": "C6_dedup",
+    "f1": 0.29770992366412213
+  },
+  {
+    "config": "naive (R1 off, R2 off)",
+    "gate_public": false,
+    "normal_only": false,
+    "epsilon": 0.5,
+    "seed": 3,
+    "condition": "C5_nodedup",
+    "f1": 0.22137404580152673
+  },
+  {
+    "config": "naive (R1 off, R2 off)",
+    "gate_public": false,
+    "normal_only": false,
+    "epsilon": 0.5,
+    "seed": 3,
+    "condition": "C6_dedup",
+    "f1": 0.26208651399491095
+  },
+  {
+    "config": "naive (R1 off, R2 off)",
+    "gate_public": false,
+    "normal_only": false,
+    "epsilon": 2.0,
+    "seed": 3,
+    "condition": "C5_nodedup",
+    "f1": 0.22391857506361323
+  },
+  {
+    "config": "naive (R1 off, R2 off)",
+    "gate_public": false,
+    "normal_only": false,
+    "epsilon": 2.0,
+    "seed": 3,
+    "condition": "C6_dedup",
+    "f1": 0.30025445292620867
+  },
+  {
+    "config": "naive (R1 off, R2 off)",
+    "gate_public": false,
+    "normal_only": false,
+    "epsilon": 0.5,
+    "seed": 4,
+    "condition": "C5_nodedup",
+    "f1": 0.21628498727735368
+  },
+  {
+    "config": "naive (R1 off, R2 off)",
+    "gate_public": false,
+    "normal_only": false,
+    "epsilon": 0.5,
+    "seed": 4,
+    "condition": "C6_dedup",
+    "f1": 0.24681933842239187
+  },
+  {
+    "config": "naive (R1 off, R2 off)",
+    "gate_public": false,
+    "normal_only": false,
+    "epsilon": 2.0,
+    "seed": 4,
+    "condition": "C5_nodedup",
+    "f1": 0.21882951653944022
+  },
+  {
+    "config": "naive (R1 off, R2 off)",
+    "gate_public": false,
+    "normal_only": false,
+    "epsilon": 2.0,
+    "seed": 4,
+    "condition": "C6_dedup",
+    "f1": 0.29770992366412213
+  },
+  {
+    "config": "fix R1 only (public gate)",
+    "gate_public": true,
+    "normal_only": false,
+    "epsilon": 0.5,
+    "seed": 0,
+    "condition": "C5_nodedup",
+    "f1": 0.20610687022900764
+  },
+  {
+    "config": "fix R1 only (public gate)",
+    "gate_public": true,
+    "normal_only": false,
+    "epsilon": 0.5,
+    "seed": 0,
+    "condition": "C6_dedup",
+    "f1": 0.21374045801526717
+  },
+  {
+    "config": "fix R1 only (public gate)",
+    "gate_public": true,
+    "normal_only": false,
+    "epsilon": 2.0,
+    "seed": 0,
+    "condition": "C5_nodedup",
+    "f1": 0.21882951653944022
+  },
+  {
+    "config": "fix R1 only (public gate)",
+    "gate_public": true,
+    "normal_only": false,
+    "epsilon": 2.0,
+    "seed": 0,
+    "condition": "C6_dedup",
+    "f1": 0.22391857506361323
+  },
+  {
+    "config": "fix R1 only (public gate)",
+    "gate_public": true,
+    "normal_only": false,
+    "epsilon": 0.5,
+    "seed": 1,
+    "condition": "C5_nodedup",
+    "f1": 0.22137404580152673
+  },
+  {
+    "config": "fix R1 only (public gate)",
+    "gate_public": true,
+    "normal_only": false,
+    "epsilon": 0.5,
+    "seed": 1,
+    "condition": "C6_dedup",
+    "f1": 0.24681933842239187
+  },
+  {
+    "config": "fix R1 only (public gate)",
+    "gate_public": true,
+    "normal_only": false,
+    "epsilon": 2.0,
+    "seed": 1,
+    "condition": "C5_nodedup",
+    "f1": 0.21882951653944022
+  },
+  {
+    "config": "fix R1 only (public gate)",
+    "gate_public": true,
+    "normal_only": false,
+    "epsilon": 2.0,
+    "seed": 1,
+    "condition": "C6_dedup",
+    "f1": 0.21374045801526717
+  },
+  {
+    "config": "fix R1 only (public gate)",
+    "gate_public": true,
+    "normal_only": false,
+    "epsilon": 0.5,
+    "seed": 2,
+    "condition": "C5_nodedup",
+    "f1": 0.21882951653944022
+  },
+  {
+    "config": "fix R1 only (public gate)",
+    "gate_public": true,
+    "normal_only": false,
+    "epsilon": 0.5,
+    "seed": 2,
+    "condition": "C6_dedup",
+    "f1": 0.22646310432569974
+  },
+  {
+    "config": "fix R1 only (public gate)",
+    "gate_public": true,
+    "normal_only": false,
+    "epsilon": 2.0,
+    "seed": 2,
+    "condition": "C5_nodedup",
+    "f1": 0.1806615776081425
+  },
+  {
+    "config": "fix R1 only (public gate)",
+    "gate_public": true,
+    "normal_only": false,
+    "epsilon": 2.0,
+    "seed": 2,
+    "condition": "C6_dedup",
+    "f1": 0.21374045801526717
+  },
+  {
+    "config": "fix R1 only (public gate)",
+    "gate_public": true,
+    "normal_only": false,
+    "epsilon": 0.5,
+    "seed": 3,
+    "condition": "C5_nodedup",
+    "f1": 0.22137404580152673
+  },
+  {
+    "config": "fix R1 only (public gate)",
+    "gate_public": true,
+    "normal_only": false,
+    "epsilon": 0.5,
+    "seed": 3,
+    "condition": "C6_dedup",
+    "f1": 0.2340966921119593
+  },
+  {
+    "config": "fix R1 only (public gate)",
+    "gate_public": true,
+    "normal_only": false,
+    "epsilon": 2.0,
+    "seed": 3,
+    "condition": "C5_nodedup",
+    "f1": 0.22137404580152673
+  },
+  {
+    "config": "fix R1 only (public gate)",
+    "gate_public": true,
+    "normal_only": false,
+    "epsilon": 2.0,
+    "seed": 3,
+    "condition": "C6_dedup",
+    "f1": 0.24681933842239187
+  },
+  {
+    "config": "fix R1 only (public gate)",
+    "gate_public": true,
+    "normal_only": false,
+    "epsilon": 0.5,
+    "seed": 4,
+    "condition": "C5_nodedup",
+    "f1": 0.21628498727735368
+  },
+  {
+    "config": "fix R1 only (public gate)",
+    "gate_public": true,
+    "normal_only": false,
+    "epsilon": 0.5,
+    "seed": 4,
+    "condition": "C6_dedup",
+    "f1": 0.21882951653944022
+  },
+  {
+    "config": "fix R1 only (public gate)",
+    "gate_public": true,
+    "normal_only": false,
+    "epsilon": 2.0,
+    "seed": 4,
+    "condition": "C5_nodedup",
+    "f1": 0.22137404580152673
+  },
+  {
+    "config": "fix R1 only (public gate)",
+    "gate_public": true,
+    "normal_only": false,
+    "epsilon": 2.0,
+    "seed": 4,
+    "condition": "C6_dedup",
+    "f1": 0.26463104325699743
+  },
+  {
+    "config": "fix R2 only (normal-only)",
+    "gate_public": false,
+    "normal_only": true,
+    "epsilon": 0.5,
+    "seed": 0,
+    "condition": "C5_nodedup",
+    "f1": 0.2697201017811705
+  },
+  {
+    "config": "fix R2 only (normal-only)",
+    "gate_public": false,
+    "normal_only": true,
+    "epsilon": 0.5,
+    "seed": 0,
+    "condition": "C6_dedup",
+    "f1": 0.272264631043257
+  },
+  {
+    "config": "fix R2 only (normal-only)",
+    "gate_public": false,
+    "normal_only": true,
+    "epsilon": 2.0,
+    "seed": 0,
+    "condition": "C5_nodedup",
+    "f1": 0.27989821882951654
+  },
+  {
+    "config": "fix R2 only (normal-only)",
+    "gate_public": false,
+    "normal_only": true,
+    "epsilon": 2.0,
+    "seed": 0,
+    "condition": "C6_dedup",
+    "f1": 0.3256997455470738
+  },
+  {
+    "config": "fix R2 only (normal-only)",
+    "gate_public": false,
+    "normal_only": true,
+    "epsilon": 0.5,
+    "seed": 1,
+    "condition": "C5_nodedup",
+    "f1": 0.2595419847328244
+  },
+  {
+    "config": "fix R2 only (normal-only)",
+    "gate_public": false,
+    "normal_only": true,
+    "epsilon": 0.5,
+    "seed": 1,
+    "condition": "C6_dedup",
+    "f1": 0.2366412213740458
+  },
+  {
+    "config": "fix R2 only (normal-only)",
+    "gate_public": false,
+    "normal_only": true,
+    "epsilon": 2.0,
+    "seed": 1,
+    "condition": "C5_nodedup",
+    "f1": 0.27989821882951654
+  },
+  {
+    "config": "fix R2 only (normal-only)",
+    "gate_public": false,
+    "normal_only": true,
+    "epsilon": 2.0,
+    "seed": 1,
+    "condition": "C6_dedup",
+    "f1": 0.2340966921119593
+  },
+  {
+    "config": "fix R2 only (normal-only)",
+    "gate_public": false,
+    "normal_only": true,
+    "epsilon": 0.5,
+    "seed": 2,
+    "condition": "C5_nodedup",
+    "f1": 0.24681933842239187
+  },
+  {
+    "config": "fix R2 only (normal-only)",
+    "gate_public": false,
+    "normal_only": true,
+    "epsilon": 0.5,
+    "seed": 2,
+    "condition": "C6_dedup",
+    "f1": 0.2544529262086514
+  },
+  {
+    "config": "fix R2 only (normal-only)",
+    "gate_public": false,
+    "normal_only": true,
+    "epsilon": 2.0,
+    "seed": 2,
+    "condition": "C5_nodedup",
+    "f1": 0.3104325699745547
+  },
+  {
+    "config": "fix R2 only (normal-only)",
+    "gate_public": false,
+    "normal_only": true,
+    "epsilon": 2.0,
+    "seed": 2,
+    "condition": "C6_dedup",
+    "f1": 0.3155216284987277
+  },
+  {
+    "config": "fix R2 only (normal-only)",
+    "gate_public": false,
+    "normal_only": true,
+    "epsilon": 0.5,
+    "seed": 3,
+    "condition": "C5_nodedup",
+    "f1": 0.26208651399491095
+  },
+  {
+    "config": "fix R2 only (normal-only)",
+    "gate_public": false,
+    "normal_only": true,
+    "epsilon": 0.5,
+    "seed": 3,
+    "condition": "C6_dedup",
+    "f1": 0.26463104325699743
+  },
+  {
+    "config": "fix R2 only (normal-only)",
+    "gate_public": false,
+    "normal_only": true,
+    "epsilon": 2.0,
+    "seed": 3,
+    "condition": "C5_nodedup",
+    "f1": 0.183206106870229
+  },
+  {
+    "config": "fix R2 only (normal-only)",
+    "gate_public": false,
+    "normal_only": true,
+    "epsilon": 2.0,
+    "seed": 3,
+    "condition": "C6_dedup",
+    "f1": 0.272264631043257
+  },
+  {
+    "config": "fix R2 only (normal-only)",
+    "gate_public": false,
+    "normal_only": true,
+    "epsilon": 0.5,
+    "seed": 4,
+    "condition": "C5_nodedup",
+    "f1": 0.2544529262086514
+  },
+  {
+    "config": "fix R2 only (normal-only)",
+    "gate_public": false,
+    "normal_only": true,
+    "epsilon": 0.5,
+    "seed": 4,
+    "condition": "C6_dedup",
+    "f1": 0.24173027989821882
+  },
+  {
+    "config": "fix R2 only (normal-only)",
+    "gate_public": false,
+    "normal_only": true,
+    "epsilon": 2.0,
+    "seed": 4,
+    "condition": "C5_nodedup",
+    "f1": 0.23155216284987276
+  },
+  {
+    "config": "fix R2 only (normal-only)",
+    "gate_public": false,
+    "normal_only": true,
+    "epsilon": 2.0,
+    "seed": 4,
+    "condition": "C6_dedup",
+    "f1": 0.3638676844783715
+  },
+  {
+    "config": "honest (R1+R2)",
+    "gate_public": true,
+    "normal_only": true,
+    "epsilon": 0.5,
+    "seed": 0,
+    "condition": "C5_nodedup",
+    "f1": 0.2697201017811705
+  },
+  {
+    "config": "honest (R1+R2)",
+    "gate_public": true,
+    "normal_only": true,
+    "epsilon": 0.5,
+    "seed": 0,
+    "condition": "C6_dedup",
+    "f1": 0.272264631043257
+  },
+  {
+    "config": "honest (R1+R2)",
+    "gate_public": true,
+    "normal_only": true,
+    "epsilon": 2.0,
+    "seed": 0,
+    "condition": "C5_nodedup",
+    "f1": 0.27989821882951654
+  },
+  {
+    "config": "honest (R1+R2)",
+    "gate_public": true,
+    "normal_only": true,
+    "epsilon": 2.0,
+    "seed": 0,
+    "condition": "C6_dedup",
+    "f1": 0.3256997455470738
+  },
+  {
+    "config": "honest (R1+R2)",
+    "gate_public": true,
+    "normal_only": true,
+    "epsilon": 0.5,
+    "seed": 1,
+    "condition": "C5_nodedup",
+    "f1": 0.2595419847328244
+  },
+  {
+    "config": "honest (R1+R2)",
+    "gate_public": true,
+    "normal_only": true,
+    "epsilon": 0.5,
+    "seed": 1,
+    "condition": "C6_dedup",
+    "f1": 0.2366412213740458
+  },
+  {
+    "config": "honest (R1+R2)",
+    "gate_public": true,
+    "normal_only": true,
+    "epsilon": 2.0,
+    "seed": 1,
+    "condition": "C5_nodedup",
+    "f1": 0.27989821882951654
+  },
+  {
+    "config": "honest (R1+R2)",
+    "gate_public": true,
+    "normal_only": true,
+    "epsilon": 2.0,
+    "seed": 1,
+    "condition": "C6_dedup",
+    "f1": 0.2340966921119593
+  },
+  {
+    "config": "honest (R1+R2)",
+    "gate_public": true,
+    "normal_only": true,
+    "epsilon": 0.5,
+    "seed": 2,
+    "condition": "C5_nodedup",
+    "f1": 0.24681933842239187
+  },
+  {
+    "config": "honest (R1+R2)",
+    "gate_public": true,
+    "normal_only": true,
+    "epsilon": 0.5,
+    "seed": 2,
+    "condition": "C6_dedup",
+    "f1": 0.2544529262086514
+  },
+  {
+    "config": "honest (R1+R2)",
+    "gate_public": true,
+    "normal_only": true,
+    "epsilon": 2.0,
+    "seed": 2,
+    "condition": "C5_nodedup",
+    "f1": 0.3104325699745547
+  },
+  {
+    "config": "honest (R1+R2)",
+    "gate_public": true,
+    "normal_only": true,
+    "epsilon": 2.0,
+    "seed": 2,
+    "condition": "C6_dedup",
+    "f1": 0.3155216284987277
+  },
+  {
+    "config": "honest (R1+R2)",
+    "gate_public": true,
+    "normal_only": true,
+    "epsilon": 0.5,
+    "seed": 3,
+    "condition": "C5_nodedup",
+    "f1": 0.26208651399491095
+  },
+  {
+    "config": "honest (R1+R2)",
+    "gate_public": true,
+    "normal_only": true,
+    "epsilon": 0.5,
+    "seed": 3,
+    "condition": "C6_dedup",
+    "f1": 0.26463104325699743
+  },
+  {
+    "config": "honest (R1+R2)",
+    "gate_public": true,
+    "normal_only": true,
+    "epsilon": 2.0,
+    "seed": 3,
+    "condition": "C5_nodedup",
+    "f1": 0.183206106870229
+  },
+  {
+    "config": "honest (R1+R2)",
+    "gate_public": true,
+    "normal_only": true,
+    "epsilon": 2.0,
+    "seed": 3,
+    "condition": "C6_dedup",
+    "f1": 0.272264631043257
+  },
+  {
+    "config": "honest (R1+R2)",
+    "gate_public": true,
+    "normal_only": true,
+    "epsilon": 0.5,
+    "seed": 4,
+    "condition": "C5_nodedup",
+    "f1": 0.2544529262086514
+  },
+  {
+    "config": "honest (R1+R2)",
+    "gate_public": true,
+    "normal_only": true,
+    "epsilon": 0.5,
+    "seed": 4,
+    "condition": "C6_dedup",
+    "f1": 0.24173027989821882
+  },
+  {
+    "config": "honest (R1+R2)",
+    "gate_public": true,
+    "normal_only": true,
+    "epsilon": 2.0,
+    "seed": 4,
+    "condition": "C5_nodedup",
+    "f1": 0.23155216284987276
+  },
+  {
+    "config": "honest (R1+R2)",
+    "gate_public": true,
+    "normal_only": true,
+    "epsilon": 2.0,
+    "seed": 4,
+    "condition": "C6_dedup",
+    "f1": 0.3638676844783715
+  }
+]

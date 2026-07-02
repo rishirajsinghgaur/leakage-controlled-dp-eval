@@ -1,0 +1,9 @@
+{
+  "finding": "MIA leakage was a temporal-split artifact",
+  "diagnostic": {
+    "swat_eps2_weak_contiguous": 0.788,
+    "swat_eps2_weak_shuffled": 0.487
+  },
+  "honest_seeded": "all settings AUC~0.50, CI includes 0.5 (lira_mia_summary.json)",
+  "mechanism": "first-temporal-half-as-members confounds membership with process drift"
+}

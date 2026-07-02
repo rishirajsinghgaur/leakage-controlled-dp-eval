@@ -1,0 +1,642 @@
+[
+  {
+    "dataset": "skab",
+    "detector": "iforest",
+    "mode": "full",
+    "seed": 0,
+    "f1": 0.1847,
+    "n": 6000
+  },
+  {
+    "dataset": "skab",
+    "detector": "iforest",
+    "mode": "random",
+    "seed": 0,
+    "f1": 0.1764,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "iforest",
+    "mode": "tdedup",
+    "seed": 0,
+    "f1": 0.1803,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "iforest",
+    "mode": "fps",
+    "seed": 0,
+    "f1": 0.1672,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "iforest",
+    "mode": "full",
+    "seed": 1,
+    "f1": 0.1881,
+    "n": 6000
+  },
+  {
+    "dataset": "skab",
+    "detector": "iforest",
+    "mode": "random",
+    "seed": 1,
+    "f1": 0.1816,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "iforest",
+    "mode": "tdedup",
+    "seed": 1,
+    "f1": 0.1666,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "iforest",
+    "mode": "fps",
+    "seed": 1,
+    "f1": 0.1803,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "iforest",
+    "mode": "full",
+    "seed": 2,
+    "f1": 0.1843,
+    "n": 6000
+  },
+  {
+    "dataset": "skab",
+    "detector": "iforest",
+    "mode": "random",
+    "seed": 2,
+    "f1": 0.1686,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "iforest",
+    "mode": "tdedup",
+    "seed": 2,
+    "f1": 0.1676,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "iforest",
+    "mode": "fps",
+    "seed": 2,
+    "f1": 0.1666,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "iforest",
+    "mode": "full",
+    "seed": 3,
+    "f1": 0.1575,
+    "n": 6000
+  },
+  {
+    "dataset": "skab",
+    "detector": "iforest",
+    "mode": "random",
+    "seed": 3,
+    "f1": 0.1806,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "iforest",
+    "mode": "tdedup",
+    "seed": 3,
+    "f1": 0.1586,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "iforest",
+    "mode": "fps",
+    "seed": 3,
+    "f1": 0.1555,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "iforest",
+    "mode": "full",
+    "seed": 4,
+    "f1": 0.1815,
+    "n": 6000
+  },
+  {
+    "dataset": "skab",
+    "detector": "iforest",
+    "mode": "random",
+    "seed": 4,
+    "f1": 0.1751,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "iforest",
+    "mode": "tdedup",
+    "seed": 4,
+    "f1": 0.1698,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "iforest",
+    "mode": "fps",
+    "seed": 4,
+    "f1": 0.1835,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "ocsvm",
+    "mode": "full",
+    "seed": 0,
+    "f1": 0.2398,
+    "n": 6000
+  },
+  {
+    "dataset": "skab",
+    "detector": "ocsvm",
+    "mode": "random",
+    "seed": 0,
+    "f1": 0.245,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "ocsvm",
+    "mode": "tdedup",
+    "seed": 0,
+    "f1": 0.2398,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "ocsvm",
+    "mode": "fps",
+    "seed": 0,
+    "f1": 0.2411,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "ocsvm",
+    "mode": "full",
+    "seed": 1,
+    "f1": 0.2398,
+    "n": 6000
+  },
+  {
+    "dataset": "skab",
+    "detector": "ocsvm",
+    "mode": "random",
+    "seed": 1,
+    "f1": 0.2398,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "ocsvm",
+    "mode": "tdedup",
+    "seed": 1,
+    "f1": 0.2398,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "ocsvm",
+    "mode": "fps",
+    "seed": 1,
+    "f1": 0.2411,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "ocsvm",
+    "mode": "full",
+    "seed": 2,
+    "f1": 0.2398,
+    "n": 6000
+  },
+  {
+    "dataset": "skab",
+    "detector": "ocsvm",
+    "mode": "random",
+    "seed": 2,
+    "f1": 0.2431,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "ocsvm",
+    "mode": "tdedup",
+    "seed": 2,
+    "f1": 0.2398,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "ocsvm",
+    "mode": "fps",
+    "seed": 2,
+    "f1": 0.2411,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "ocsvm",
+    "mode": "full",
+    "seed": 3,
+    "f1": 0.2398,
+    "n": 6000
+  },
+  {
+    "dataset": "skab",
+    "detector": "ocsvm",
+    "mode": "random",
+    "seed": 3,
+    "f1": 0.2398,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "ocsvm",
+    "mode": "tdedup",
+    "seed": 3,
+    "f1": 0.2398,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "ocsvm",
+    "mode": "fps",
+    "seed": 3,
+    "f1": 0.2411,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "ocsvm",
+    "mode": "full",
+    "seed": 4,
+    "f1": 0.2398,
+    "n": 6000
+  },
+  {
+    "dataset": "skab",
+    "detector": "ocsvm",
+    "mode": "random",
+    "seed": 4,
+    "f1": 0.2404,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "ocsvm",
+    "mode": "tdedup",
+    "seed": 4,
+    "f1": 0.2398,
+    "n": 3055
+  },
+  {
+    "dataset": "skab",
+    "detector": "ocsvm",
+    "mode": "fps",
+    "seed": 4,
+    "f1": 0.2411,
+    "n": 3055
+  },
+  {
+    "dataset": "swat",
+    "detector": "iforest",
+    "mode": "full",
+    "seed": 0,
+    "f1": 0.3995,
+    "n": 6000
+  },
+  {
+    "dataset": "swat",
+    "detector": "iforest",
+    "mode": "random",
+    "seed": 0,
+    "f1": 0.3177,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "iforest",
+    "mode": "tdedup",
+    "seed": 0,
+    "f1": 0.2723,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "iforest",
+    "mode": "fps",
+    "seed": 0,
+    "f1": 0.2443,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "iforest",
+    "mode": "full",
+    "seed": 1,
+    "f1": 0.341,
+    "n": 6000
+  },
+  {
+    "dataset": "swat",
+    "detector": "iforest",
+    "mode": "random",
+    "seed": 1,
+    "f1": 0.2824,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "iforest",
+    "mode": "tdedup",
+    "seed": 1,
+    "f1": 0.3028,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "iforest",
+    "mode": "fps",
+    "seed": 1,
+    "f1": 0.2443,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "iforest",
+    "mode": "full",
+    "seed": 2,
+    "f1": 0.3003,
+    "n": 6000
+  },
+  {
+    "dataset": "swat",
+    "detector": "iforest",
+    "mode": "random",
+    "seed": 2,
+    "f1": 0.2875,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "iforest",
+    "mode": "tdedup",
+    "seed": 2,
+    "f1": 0.2519,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "iforest",
+    "mode": "fps",
+    "seed": 2,
+    "f1": 0.257,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "iforest",
+    "mode": "full",
+    "seed": 3,
+    "f1": 0.5445,
+    "n": 6000
+  },
+  {
+    "dataset": "swat",
+    "detector": "iforest",
+    "mode": "random",
+    "seed": 3,
+    "f1": 0.3588,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "iforest",
+    "mode": "tdedup",
+    "seed": 3,
+    "f1": 0.3257,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "iforest",
+    "mode": "fps",
+    "seed": 3,
+    "f1": 0.2824,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "iforest",
+    "mode": "full",
+    "seed": 4,
+    "f1": 0.3791,
+    "n": 6000
+  },
+  {
+    "dataset": "swat",
+    "detector": "iforest",
+    "mode": "random",
+    "seed": 4,
+    "f1": 0.3969,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "iforest",
+    "mode": "tdedup",
+    "seed": 4,
+    "f1": 0.2774,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "iforest",
+    "mode": "fps",
+    "seed": 4,
+    "f1": 0.2468,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "ocsvm",
+    "mode": "full",
+    "seed": 0,
+    "f1": 0.4046,
+    "n": 6000
+  },
+  {
+    "dataset": "swat",
+    "detector": "ocsvm",
+    "mode": "random",
+    "seed": 0,
+    "f1": 0.3893,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "ocsvm",
+    "mode": "tdedup",
+    "seed": 0,
+    "f1": 0.374,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "ocsvm",
+    "mode": "fps",
+    "seed": 0,
+    "f1": 0.374,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "ocsvm",
+    "mode": "full",
+    "seed": 1,
+    "f1": 0.4046,
+    "n": 6000
+  },
+  {
+    "dataset": "swat",
+    "detector": "ocsvm",
+    "mode": "random",
+    "seed": 1,
+    "f1": 0.4122,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "ocsvm",
+    "mode": "tdedup",
+    "seed": 1,
+    "f1": 0.374,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "ocsvm",
+    "mode": "fps",
+    "seed": 1,
+    "f1": 0.374,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "ocsvm",
+    "mode": "full",
+    "seed": 2,
+    "f1": 0.4046,
+    "n": 6000
+  },
+  {
+    "dataset": "swat",
+    "detector": "ocsvm",
+    "mode": "random",
+    "seed": 2,
+    "f1": 0.4046,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "ocsvm",
+    "mode": "tdedup",
+    "seed": 2,
+    "f1": 0.374,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "ocsvm",
+    "mode": "fps",
+    "seed": 2,
+    "f1": 0.374,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "ocsvm",
+    "mode": "full",
+    "seed": 3,
+    "f1": 0.4046,
+    "n": 6000
+  },
+  {
+    "dataset": "swat",
+    "detector": "ocsvm",
+    "mode": "random",
+    "seed": 3,
+    "f1": 0.4046,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "ocsvm",
+    "mode": "tdedup",
+    "seed": 3,
+    "f1": 0.374,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "ocsvm",
+    "mode": "fps",
+    "seed": 3,
+    "f1": 0.374,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "ocsvm",
+    "mode": "full",
+    "seed": 4,
+    "f1": 0.4046,
+    "n": 6000
+  },
+  {
+    "dataset": "swat",
+    "detector": "ocsvm",
+    "mode": "random",
+    "seed": 4,
+    "f1": 0.3919,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "ocsvm",
+    "mode": "tdedup",
+    "seed": 4,
+    "f1": 0.374,
+    "n": 3342
+  },
+  {
+    "dataset": "swat",
+    "detector": "ocsvm",
+    "mode": "fps",
+    "seed": 4,
+    "f1": 0.374,
+    "n": 3342
+  }
+]
