@@ -1,8 +1,8 @@
 r"""Generate paper figures from artifact JSONs. Saves PDF+EPS to paper/figs/.
 Fig1 = leakage-controlled vs uncontrolled pipeline schematic (the paper's signature).
 Fig2 = selection-invariance frontier (F1 vs eps, +/-1 std) SWaT+SKAB.
-Fig3 = MIA weak vs LiRA bars.
-NEVER fabricate: Fig2/Fig3 read from characterization.json / lira_mia.json.
+Fig3 = MIA LiRA AUC across split designs (DP vs non-private positive control).
+NEVER fabricate: Fig2 reads characterization.json; Fig3 reads mia_privacy_final_summary.json.
 
 Publication style: Okabe-Ito colourblind-safe palette, serif + Computer-Modern math
 to match the Springer sn-jnl body text, despined axes, vector PDF+EPS output.
@@ -129,30 +129,38 @@ def fig2_frontier():
 
 
 def fig3_mia():
-    disp = {"skab": "SKAB", "swat": "SWaT"}
-    naive  = {(r["dataset"], r["epsilon"]): r for r in json.load(open(ROOT / "results" / "mia_artifact_summary.json"))}
-    honest = {(r["dataset"], r["epsilon"]): r for r in json.load(open(ROOT / "results" / "lira_mia_summary.json"))}
-    settings = [("skab", 0.5), ("skab", 2.0), ("swat", 0.5), ("swat", 2.0)]
-    labels = [f"{disp[d]}\n$\\varepsilon$={e}" for d, e in settings]
-    nv = [naive[s]["lira_mean"] for s in settings]; ne = [naive[s]["lira_std"] for s in settings]
-    hv = [honest[s]["lira_mean"] for s in settings]; he = [honest[s]["lira_std"] for s in settings]
-    x = np.arange(4); w = 0.38
-    fig, ax = plt.subplots(figsize=(4.8, 2.9))
-    ekw = dict(capsize=2.5, ecolor="#333", elinewidth=0.8, capthick=0.8)
-    ax.bar(x-w/2, nv, w, yerr=ne, label="contiguous split", color=C_UNCTRL,
-           edgecolor="white", linewidth=0.4, error_kw=ekw)
-    ax.bar(x+w/2, hv, w, yerr=he, label="randomized split", color=C_CTRL,
-           edgecolor="white", linewidth=0.4, error_kw=ekw)
-    for xi, v, e in zip(x-w/2, nv, ne): ax.text(xi, v+e+0.012, f"{v:.2f}", ha="center", fontsize=6.5)
-    for xi, v, e in zip(x+w/2, hv, he): ax.text(xi, v+e+0.012, f"{v:.2f}", ha="center", fontsize=6.5)
-    ax.axhline(0.5, color="#444", linewidth=0.9, linestyle=(0, (4, 2)))
-    ax.text(3.52, 0.505, "chance", fontsize=6.5, color="#444", va="bottom", ha="right")
-    ax.set_xticks(x); ax.set_xticklabels(labels, fontsize=7.5)
-    ax.set_ylabel("LiRA MIA AUC")
-    ax.set_ylim(0.45, 0.82)
-    ax.legend(frameon=False, loc="upper left", handlelength=1.4)
+    d = json.load(open(ROOT / "results" / "mia_privacy_final_summary.json"))
+    order = [("contiguous", None, "contig."), ("random", None, "random"),
+             ("blocked", 0, "blk\ng0"), ("blocked", 200, "blk\ng200"),
+             ("blocked", 400, "blk\ng400"), ("blocked", 600, "blk\ng600")]
+    def get(ds, tgt, split, gap):
+        for r in d:
+            if r["dataset"]==ds and r["target"]==tgt and r["split"]==split and r.get("gap")==gap:
+                return r["lira_mean"], r["lira_std"]
+        return np.nan, np.nan
+    series = [("np_overfit", "positive control (non-private, memorised)", OI["black"], "s", "white"),
+              ("dp", r"DP ($\varepsilon$=2)", OI["blue"], "o", None)]
+    fig, axes = plt.subplots(1, 2, figsize=(7.0, 3.1), sharey=True)
+    x = np.arange(len(order)); handles=None
+    for ax, ds in zip(axes, ["swat", "skab"]):
+        for tgt, lab, col, mk, mfc in series:
+            mu = np.array([get(ds, tgt, s, g)[0] for s, g, _ in order])
+            sd = np.array([get(ds, tgt, s, g)[1] for s, g, _ in order])
+            ax.errorbar(x, mu, yerr=sd, marker=mk, color=col,
+                        mfc=(col if mfc is None else mfc), markersize=5.5, linewidth=1.3,
+                        capsize=2.5, markeredgewidth=0.8, label=lab, zorder=3)
+        ax.axhline(0.5, color="#444", linewidth=0.9, linestyle=(0, (4, 2)))
+        ax.set_title({"swat": "SWaT (autocorr 329)", "skab": "SKAB (autocorr 1996)"}[ds])
+        ax.set_xticks(x); ax.set_xticklabels([o[2] for o in order], fontsize=7)
+        ax.set_ylim(0.35, 1.03); ax.grid(True, axis="y", alpha=0.25, linewidth=0.4)
+        if handles is None: handles, labels_ = ax.get_legend_handles_labels()
+    axes[0].set_ylabel("LiRA MIA AUC")
+    axes[0].text(len(order)-0.5, 0.505, "chance", fontsize=6.5, color="#444", va="bottom", ha="right")
+    fig.legend(handles, labels_, frameon=False, ncol=2, loc="upper center",
+               bbox_to_anchor=(0.5, 1.03), handlelength=2.0, columnspacing=1.6)
+    fig.subplots_adjust(wspace=0.08, top=0.80)
     save(fig, "fig_mia")
-    print("naive:", nv, "honest:", hv)
+    print("mia fig rebuilt from mia_privacy_final_summary")
 
 
 if __name__ == "__main__":

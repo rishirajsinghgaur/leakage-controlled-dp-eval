@@ -452,13 +452,8 @@ def _generate_outputs(results: list):
             make_latex_table(results, ds, TAB_DIR)
     # Also produce full combined table
     _make_full_summary_table(results)
-    # Enhanced publication figures
-    try:
-        from experiments.paper_figures import generate_all
-        generate_all(RESULTS_PATH, ROOT / "results")
-    except Exception as e:
-        log.warning("paper_figures.generate_all failed: %s", e)
-    log.info("All figures and tables written.")
+    # Publication figures are produced separately by experiments/make_paper_figs.py.
+    log.info("All tables written. Run experiments/make_paper_figs.py for the figures.")
 
 
 def _run_ablations_skab():

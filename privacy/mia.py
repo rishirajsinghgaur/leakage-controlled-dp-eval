@@ -10,9 +10,11 @@ Methodology
 4. Report AUC and accuracy of the attack.
 
 Interpretation: AUC ≈ 0.5 → no membership signal detectable; AUC → 1.0 → strong leak.
-The member/non-member split is decisive: a contiguous temporal split can inflate the
-AUC by confounding membership with process drift, so a randomized, seeded split is
-used for the reported evaluation (see experiments/lira_mia.py).
+The member/non-member split is decisive and confounds in BOTH directions: a contiguous
+temporal split inflates the AUC (process drift), while a uniform-random split deflates it
+on autocorrelated streams (near-duplicate non-members). The reported evaluation uses a
+blocked split with a guard gap, validated by a positive control that a working attack
+must expose (see experiments/mia_privacy_final.py).
 """
 
 from __future__ import annotations
