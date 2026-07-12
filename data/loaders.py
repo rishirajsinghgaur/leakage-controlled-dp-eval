@@ -452,10 +452,121 @@ def load_cmapss(
     return X, y, sensor_cols
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# HAI — HIL-based Augmented ICS Security dataset (power + thermal testbed)
+# ─────────────────────────────────────────────────────────────────────────────
+
+# The HAI download ships several releases (hai-20.07 / 21.03 / 22.04 / 23.05), each with a
+# DIFFERENT sensor schema, so we pin ONE release rather than mixing them. Within a release
+# the labelled TEST files (test*.csv) form a single temporal stream containing both normal
+# operation and the injected attacks; the pure-normal train files are not needed because the
+# test stream already supplies an abundant normal pool. Preference order below.
+_HAI_BASE = DATASET_ROOT / "HAI"
+_HAI_RELEASES = ["hai-22.04", "hai-21.03", "hai-20.07", "hai-23.05", "."]
+
+
+def load_hai(
+    max_samples: int = 40_000,
+    random_state: int = 42,
+) -> Tuple[np.ndarray, np.ndarray, List[str]]:
+    """
+    Load the HAI (HIL-based Augmented ICS) dataset: a power-generation and thermal testbed
+    coupling a boiler (P1, Emerson), a steam turbine (P2, GE Mark VIe), a pumped-storage
+    hydropower unit (P3, Siemens), and a dSPACE HIL model (P4), with real injected attacks.
+    A different ICS domain from water treatment (SWaT/SKAB) for cross-domain generalisation
+    of the selection null.
+
+    We pin a single release (hai-22.04 by default) and use its labelled TEST files as one
+    temporally ordered stream (~3.3% attack across test1--test4). The timestamp column and the
+    'Attack' label column are auto-detected ('attack_P1/P2/P3' are OR-ed if a single 'Attack'
+    column is absent). Feature columns are the numeric process variables; temporal order is
+    preserved (like SWaT) because the streams are strongly autocorrelated.
+
+    Returns X (float32, z-scored), y (0=normal/1=attack), feature_names.
+    """
+    base = _HAI_BASE if _HAI_BASE.exists() else next(
+        (d for d in [DATASET_ROOT / "hai", DATASET_ROOT / "HAI"] if d.exists()), None)
+    if base is None:
+        raise FileNotFoundError(
+            f"HAI dataset not found. Place the official HAI release under {_HAI_BASE}")
+
+    rel_dir = next((base / r for r in _HAI_RELEASES if (base / r).exists()
+                    and list((base / r).glob("*test*.csv"))), None)
+    if rel_dir is None:
+        raise FileNotFoundError(f"No HAI release with test*.csv found under {base}")
+
+    csvs = sorted(rel_dir.glob("*test*.csv"))
+    log.info("HAI release: %s (%d test files)", rel_dir.name, len(csvs))
+
+    frames = []
+    for f in csvs:
+        df = None
+        for sep in (",", ";", "\t"):
+            try:
+                tmp = pd.read_csv(f, sep=sep, engine="python", on_bad_lines="skip")
+                if tmp.shape[1] > 3:
+                    df = tmp; break
+            except Exception:
+                continue
+        if df is None:
+            continue
+        df.columns = [str(c).strip() for c in df.columns]
+        frames.append(df)
+
+    if not frames:
+        raise FileNotFoundError(f"HAI test CSVs under {rel_dir} could not be parsed")
+
+    data = pd.concat(frames, ignore_index=True)
+
+    # Identify timestamp and label columns.
+    ts_cols = [c for c in data.columns if c.lower() in ("time", "timestamp", "datetime")]
+    atk_single = [c for c in data.columns if c.lower() == "attack"]
+    atk_multi  = [c for c in data.columns if c.lower().startswith("attack_")]
+
+    if atk_single:
+        y = pd.to_numeric(data[atk_single[0]], errors="coerce").fillna(0)
+        y = (y > 0).astype(int).values
+    elif atk_multi:
+        m = np.zeros(len(data), dtype=int)
+        for c in atk_multi:
+            m |= (pd.to_numeric(data[c], errors="coerce").fillna(0) > 0).astype(int).values
+        y = m
+    else:
+        y = np.zeros(len(data), dtype=int)
+
+    exclude = set(ts_cols) | set(atk_single) | set(atk_multi)
+    feat_cols = []
+    for c in data.columns:
+        if c in exclude:
+            continue
+        s = pd.to_numeric(data[c], errors="coerce")
+        if s.notna().sum() > 100 and s.std(skipna=True) > 0:
+            data[c] = s
+            feat_cols.append(c)
+
+    if not feat_cols:
+        raise ValueError("HAI: no usable numeric feature columns found.")
+
+    feat = data[feat_cols].apply(lambda c: c.fillna(c.median()))
+    X_raw = feat.values.astype(np.float32)
+
+    # Subsample if needed; keep sorted indices to preserve temporal order.
+    rng = np.random.default_rng(random_state)
+    if max_samples and len(X_raw) > max_samples:
+        idx = np.sort(rng.choice(len(X_raw), size=max_samples, replace=False))
+        X_raw = X_raw[idx]; y = y[idx]
+
+    X = _zscore(X_raw)
+    log.info("HAI loaded: %d samples, %d features, %.1f%% attack",
+             len(X), X.shape[1], 100 * y.mean())
+    return X, y, feat_cols
+
+
 DATASET_REGISTRY = {
     "tep":    load_tep,
     "swat":   load_swat,
     "skab":   load_skab,
     "iiot":   load_iiot,
     "cmapss": load_cmapss,
+    "hai":    load_hai,
 }

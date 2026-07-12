@@ -105,6 +105,21 @@ DS_CFG = {
         "eval_percentile": 87.0, "delta": 1e-5, "max_grad_norm": 1.0,
         "mia_n_samples": 1000,
     },
+    "hai": {
+        # REAL non-water ICS testbed (HIL-based Augmented ICS): steam-turbine power +
+        # pumped-storage/thermal boiler, with real injected attacks. Non-water domain
+        # for cross-domain generalisation of the selection null. ~59-86 process tags at
+        # 1 Hz, strongly autocorrelated (temporal order preserved, like SWaT).
+        # hai-22.04 test stream: ~3.3% attack prevalence, so p97 is prevalence-adjacent
+        # (same convention as SWaT/SKAB/TEP; the train-normal-threshold check in the
+        # supplement confirms the selection null does not depend on this choice).
+        "max_samples": 40_000, "bottleneck": 16, "batch_size": 128,
+        "local_epochs": 3, "n_rounds": 15, "lr": 1e-3,
+        "siamese_epochs": 15, "siamese_emb": 32, "siamese_window": 5,
+        "similarity_threshold": 0.97, "sil_sigma": 3.0,
+        "eval_percentile": 97.0, "delta": 1e-5, "max_grad_norm": 1.0,
+        "mia_n_samples": 1000,
+    },
 }
 
 EPSILON_GRID = [0.5, 1.0, 2.0, 4.0]   # 4 values for frontier curve
@@ -452,8 +467,13 @@ def _generate_outputs(results: list):
             make_latex_table(results, ds, TAB_DIR)
     # Also produce full combined table
     _make_full_summary_table(results)
-    # Publication figures are produced separately by experiments/make_paper_figs.py.
-    log.info("All tables written. Run experiments/make_paper_figs.py for the figures.")
+    # Enhanced publication figures
+    try:
+        from experiments.paper_figures import generate_all
+        generate_all(RESULTS_PATH, ROOT / "results")
+    except Exception as e:
+        log.warning("paper_figures.generate_all failed: %s", e)
+    log.info("All figures and tables written.")
 
 
 def _run_ablations_skab():
