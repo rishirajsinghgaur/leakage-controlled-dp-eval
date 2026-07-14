@@ -1,7 +1,7 @@
 r"""
-Convergence curves (reviewer item 14): record per-round test F1 and train loss for a
-representative federated run on each dataset, to justify R=15 rounds as sufficient.
-Output -> results/convergence_curve.json + paper/figs/fig_convergence.{pdf,eps}.
+Convergence curves: record per-round test F1 and train loss for a representative
+federated run on each dataset, to justify R=15 rounds as sufficient.
+Output -> results/convergence_curve.json.
 """
 import sys, json, logging
 from pathlib import Path
@@ -35,14 +35,4 @@ for ds in ["skab", "swat"]:
     out[ds] = [{"round": h["round"], "f1": h["f1"], "train_loss": h["train_loss"]} for h in r.history]
     print(f"{ds}: {len(out[ds])} rounds, F1@15={[h['f1'] for h in out[ds] if h['round']==15]}", flush=True)
 (ROOT / "results" / "convergence_curve.json").write_text(json.dumps(out, indent=2))
-
-import matplotlib; matplotlib.use("Agg"); import matplotlib.pyplot as plt
-plt.rcParams.update({"font.size": 9, "font.family": "serif"})
-fig, ax = plt.subplots(figsize=(4.4, 2.6))
-for ds, mk in [("swat", "o-"), ("skab", "s--")]:
-    h = out[ds]; ax.plot([e["round"] for e in h], [e["f1"] for e in h], mk, markersize=3, label=ds.upper().replace("SWAT","SWaT"))
-ax.axvline(15, color="#888", linestyle=":", linewidth=0.8); ax.text(15.3, ax.get_ylim()[0], "R=15", fontsize=7, color="#666")
-ax.set_xlabel("federated round"); ax.set_ylabel("test F1"); ax.grid(True, alpha=0.25, linewidth=0.4)
-ax.legend(fontsize=7, frameon=False)
-for ext in ("pdf", "eps"): fig.savefig(ROOT / "paper" / "figs" / f"fig_convergence.{ext}", bbox_inches="tight", pad_inches=0.02)
-print("wrote fig_convergence")
+print("wrote results/convergence_curve.json")
